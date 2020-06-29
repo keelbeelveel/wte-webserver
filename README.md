@@ -1,6 +1,6 @@
 # wte-webserver
 Webserver implementation for Wolverine Ticket Exchange
-README revised: Mon June 29, 2020 @ 11:39:56 EDT
+README revised: Mon June 29, 2020 @ 11:44:14 EDT
 
 # TODO
 - [ ] Language Selection
@@ -11,7 +11,7 @@ README revised: Mon June 29, 2020 @ 11:39:56 EDT
 # Future Features
 - [ ] "Order" filters
     - [ ] Group search. Allow group of friends to search for "adjacent" or "nearby" seats. I picture a binary map or other webbed structure in which a seat can be flagged as an "adjacent", "nearby" (same row) or "in vicinity of" (diff. row) to other seats.
-    - Use higher level language like C++ or Python to generate vectors of valid seat identifiers to be passed of to database (PHP, SQL, etc)
+    - [ ] Use higher level language like C++ or Python to generate vectors of valid seat identifiers to be passed of to database (PHP, SQL, etc)
 - [ ] "Order" tracking
 - [ ] Helpdesk
 
