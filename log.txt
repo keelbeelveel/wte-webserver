@@ -1,0 +1,12 @@
+Mon 29 Jun 2020 12:46:09 PM EDT
+-- centos 7 installed
+-- created /var/www/wte
+-- chmod -R 777 /var/www/ 
+-- sudo yum install firewalld
+-- sudo systemctl start firewalld
+-- sudo firewall-cmd --permanent --add-service=ssh
+-- sudo firewall-cmd --permanent --add-service=http
+-- sudo firewall-cmd --permanent --add-service=https
+-- sudo firewall-cmd --permanent --list-all
+-- sudo firewall-cmd --reload
+
