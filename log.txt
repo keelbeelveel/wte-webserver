@@ -1,4 +1,4 @@
-Log modified: Tue June 30, 2020 @ 12:53:38 EDT
+Log modified: Tue June 30, 2020 @ 01:56:17 EDT
 Mon 29 Jun 2020 12:46:09 PM EDT
 -- centos 7 installed
 -- created /var/www/wte
@@ -37,3 +37,9 @@ Tue 30 Jun 2020 12:26:56 PM EDT
 Tue 30 Jun 2020 12:41:55 PM EDT
 -- sudo mkdir /etc/httpd/sites-available /etc/httpd/sites-enable
 -- sudo vim /etc/httpd/conf/httpd.conf : added line "IncludeOptional sites-enabled/*.conf"
+
+Tue 30 Jun 2020 01:54:01 PM EDT
+-- added scripts to flag and unflag site as available
+-- needed to modify SELinux policies, httpd wont start otherwise
+    -- sudo semanage fcontext -a -t httpd_log_t "/var/www/wte/log(/.*)?"
+    -- sudo restorecon -R -v /var/www/wte/log 
