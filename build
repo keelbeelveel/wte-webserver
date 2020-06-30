@@ -1,0 +1,2 @@
+# script modified: Tue June 30, 2020 @ 01:17:37 EDT
+cp wte.conf /etc/httpd/sites-available/wte.conf
