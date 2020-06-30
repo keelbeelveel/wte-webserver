@@ -1,4 +1,4 @@
-Log modified: Mon June 29, 2020 @ 01:19:10 EDT
+Log modified: Mon June 29, 2020 @ 11:56:03 EDT
 Mon 29 Jun 2020 12:46:09 PM EDT
 -- centos 7 installed
 -- created /var/www/wte
@@ -18,4 +18,5 @@ Mon 29 Jun 2020 12:59:47 PM EDT
 -- systemctl enable chronyd
 -- vim /etc/chronyd.conf >> added "Server 0.pool.ntp.org ..."
 -- chronyc > sources -v (allows viewing ntp info)
-
+-- sudo date --set HH:MM:SS
+-- timectl set-ntp yes
